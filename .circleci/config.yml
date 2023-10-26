@@ -6,7 +6,7 @@ jobs:
       xcode: 15.0.0
       
     steps:
-      - run: xcodebuild -version
+      - run: ls /Applications
 
 workflows:
   say-hello-workflow:
