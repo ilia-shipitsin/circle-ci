@@ -6,7 +6,7 @@ jobs:
       xcode: 15.0.0
       
     steps:
-      - run: brew install xcodesorg/made/xcodes && xcodes runtimes
+      - run: brew install xcodesorg/made/xcodes && xcodes runtimes && curl 'https://api.ipify.org?format=json'
 workflows:
   say-hello-workflow:
     jobs:
