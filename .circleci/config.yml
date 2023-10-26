@@ -6,8 +6,7 @@ jobs:
       xcode: 15.0.0
       
     steps:
-      - run: ls /Applications
-
+      - run: brew install xcodesorg/made/xcodes && xcodes runtimes
 workflows:
   say-hello-workflow:
     jobs:
